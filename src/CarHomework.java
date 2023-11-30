@@ -12,4 +12,8 @@ public class CarHomework {
     String model;
     int numWheels;
     String Colour;
+    
+    public void drive(double direction) {
+        System.out.printf("The %s %s is driving at %s at %d degrees", colour, make, direction);
+    }
 }
